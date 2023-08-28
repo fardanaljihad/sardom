@@ -22,6 +22,11 @@ public class MahasiswaService {
         return mahasiswa;
     }
 
+    //Add mahasiswa
+    public Mahasiswa addMahasiswa(Mahasiswa mahasiswa){
+        return mahasiswaRepository.save(mahasiswa);
+    }
+
     //Get mahasiswa by nim
     public Mahasiswa getMahasiswaByNim(String nim){
         return mahasiswaRepository.findById(nim).get();
