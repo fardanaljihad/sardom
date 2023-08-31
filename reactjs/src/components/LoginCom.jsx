@@ -3,7 +3,7 @@ import React from 'react';
 
 function LoginCom() {
   return <>
-    <section className="vh-100 bg-secondary">
+    <section className="vh-100 bg-secondary login-background">
       <div className="container py-5 h-100">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="col-12 col-md-8 col-lg-6 col-xl-5">
@@ -14,7 +14,7 @@ function LoginCom() {
                     Sar
                   </div>
                   <div className="col-auto hub">
-                    Hub
+                    hub
                   </div>
                 </div>
                 <div className="form-outline mb-4">

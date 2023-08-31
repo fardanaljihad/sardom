@@ -7,6 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.login-background{
+  background-image: url(../public/assets/sarhub.png);
+
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -27,19 +32,30 @@ code {
 }
 
 .sarhub{
+  height: 50px;
   font-size: 40px;
   font-weight: bold;
   margin-left: 30%;
 }
 
 .hub{
+  height: 50px;
   background-color: #cb7a00ff;
   border-radius: 5px;
   color: black;
   padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
 }
 
 .sar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
   padding: 5px;
 }
 
