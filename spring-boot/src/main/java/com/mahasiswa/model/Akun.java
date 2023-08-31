@@ -13,6 +13,8 @@ public class Akun {
     private String username;
     @Column
     private String password;
+    @Column
+    private String role;
 
     public Akun() {
 
@@ -33,4 +35,14 @@ public class Akun {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    
 }
