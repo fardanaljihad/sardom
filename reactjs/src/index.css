@@ -25,3 +25,21 @@ code {
   border-radius: 5px;
   border-color: gray;
 }
+
+.sarhub{
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 30%;
+}
+
+.hub{
+  background-color: #cb7a00ff;
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+}
+
+.sar{
+  padding: 5px;
+}
+

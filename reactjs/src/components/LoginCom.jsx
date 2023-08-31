@@ -9,7 +9,14 @@ function LoginCom() {
           <div className="col-12 col-md-8 col-lg-6 col-xl-5">
             <div className="card shadow-2-strong">
               <div className="card-body p-5 text-center body-login radius">
-                <h3 className="mb-5 text-white">Sarhub</h3>
+                <div className="row sarhub text-white mb-3">
+                  <div className="col-auto sar">
+                    Sar
+                  </div>
+                  <div className="col-auto hub">
+                    Hub
+                  </div>
+                </div>
                 <div className="form-outline mb-4">
                   <input type="email" id="typeEmailX-2" className="form-control form-control-lg" placeholder="Username" />
                 </div>
