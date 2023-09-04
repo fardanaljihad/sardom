@@ -23,6 +23,9 @@ function App() {
           <Route path="/mahasiswa">
             <TabelMahasiswa />
           </Route>
+          <Route exact path="/">
+            <Login />
+          </Route>
         </Switch>
     </Router>
   );

@@ -44,7 +44,7 @@ function LoginCom() {
                     Sar
                   </div>
                   <div className="col-auto hub">
-                    hub
+                    dom
                   </div>
                 </div>
                 <form action="" id="login" method="post" onSubmit={handleSubmit}>

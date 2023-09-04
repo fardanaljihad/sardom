@@ -22,7 +22,8 @@ code {
 }
 
 .body-login button{
-  background-color: #cb7a00ff;
+  /* background-color: #cb7a00ff; */
+  background-color: aqua;
   width: 200px;
 }
 
@@ -40,7 +41,8 @@ code {
 
 .hub{
   height: 50px;
-  background-color: #cb7a00ff;
+  /* background-color: #cb7a00ff; */
+  background-color: aqua;
   border-radius: 5px;
   color: black;
   padding: 5px;
